@@ -1,20 +1,35 @@
 {
   "name": "303-black-owned-business-map",
-  "version": "1.0.0",
-  "description": "Map for https://303magazine.com/2020/06/black-owned-businesses-denver",
-  "repository": "git@github.com:blakeface/303-black-owned-business-map.git",
-  "author": "blake netzeband <blake.netzeband@spiredigital.com>",
-  "license": "MIT",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
-  },
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
     "mapbox-gl": "^1.10.1",
-    "parcel": "^1.12.4"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
   },
-  "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.10.1",
-    "babel-preset-env": "^1.7.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

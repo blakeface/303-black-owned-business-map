@@ -9,4 +9,4 @@ Map for https://303magazine.com/2020/06/black-owned-businesses-denver
 - `$ cp .env.default .env`
 - Add token to env file
 
-Runs locally at `http://localhost:1234/`
+Runs locally at `http://localhost:8080/`
